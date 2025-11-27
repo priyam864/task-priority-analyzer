@@ -315,7 +315,7 @@ Plain JavaScript was used to avoid distracting from core logic and ensure easy e
 
 ---
 
-# Bonus Challenges
+# Challenges
 
 ✔ Circular dependency detection
 ✔ Sorting strategies (Balanced, Deadline, Fastest, Impact)
