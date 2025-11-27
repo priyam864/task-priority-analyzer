@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Priority Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Task Priority Analyzer</h1>
+
+        <!-- Sorting Strategy -->
+        <label for="strategy">Sorting Strategy:</label>
+        <select id="strategy">
+            <option value="balanced">Smart (Balanced)</option>
+            <option value="deadline">Deadline Driven</option>
+            <option value="fastest">Fastest First</option>
+            <option value="impact">High Impact</option>
+        </select>
+
+        <!-- Input Box -->
+        <textarea id="taskInput" placeholder="Enter JSON tasks here..." rows="10"></textarea>
+
+        <!-- Buttons -->
+        <div class="btn-group">
+            <button onclick="analyzeTasks()">Analyze</button>
+            <button onclick="suggestTasks()">Suggest Top Tasks</button>
+        </div>
+
+        <!-- Loading Indicator -->
+        <div id="loading">Processing...</div>
+
+        <!-- Output -->
+        <div id="output"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
