@@ -346,6 +346,8 @@ Plain JavaScript was used to avoid distracting from core logic and ensure easy e
 * JSON-based APIs
 
 ---
+<img width="1140" height="605" alt="image" src="https://github.com/user-attachments/assets/918b30d7-fc62-410d-8f57-744dcef64f06" />
+
 
 ## ⭐ Author
 
