@@ -3,7 +3,7 @@
 A smart task analysis system that calculates priority scores using urgency, importance, effort, and dependency factors.
 Built with **Django + Django REST Framework** and a clean HTML/JS frontend.
 
----
+
 
 ## 🚀 Features
 
@@ -74,7 +74,7 @@ Task_analyzer/
 └── README.md
 ```
 
----
+
 
 ## ⚙️ Installation & Setup
 
@@ -117,7 +117,7 @@ Backend will run at:
 http://127.0.0.1:8000/
 ```
 
----
+
 
 ## 🌐 Frontend Usage
 
@@ -134,7 +134,7 @@ Features:
 * Click **Analyze** or **Suggest Top Tasks**
 * See color-coded results with explanation
 
----
+
 
 ## 📡 API Endpoints
 
@@ -173,13 +173,10 @@ Returns priority score for each task.
 }
 ```
 
----
 
 ### 💡 **POST /api/suggest/**
 
 Returns the **top 3 tasks** with detailed explanations.
-
----
 
 ## 🎛 Sorting Strategies
 
@@ -190,7 +187,6 @@ Returns the **top 3 tasks** with detailed explanations.
 | Fastest  | `/api/analyze/?strategy=fastest`  | Lowest hours first           |
 | Impact   | `/api/analyze/?strategy=impact`   | Highest importance first     |
 
----
 
 ## 🧪 Running Tests
 
@@ -205,20 +201,8 @@ Expected output:
 ```
 Ran 8 tests in X.XXXs
 OK
-```
 
----
 
-## 🖼 Screenshots
-
-(Add your screenshots here before submitting)
-
-```
-![UI Screenshot](screenshots/ui.png)
-![API Screenshot](screenshots/api.png)
-```
-
----
 
 ## 👩‍💻 Tech Stack
 
@@ -227,7 +211,7 @@ OK
 * HTML, CSS, JavaScript
 * JSON-based APIs
 
----
+
 
 ## ⭐ Author
 
